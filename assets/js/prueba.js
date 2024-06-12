@@ -1,14 +1,14 @@
-const btn = document.getElementById("boton");
+//const btn = document.getElementById("boton");
 const cardSection = document.getElementById("card");
 
 $(document).ready(function() {
-  $('btn').on('click', function() {
+  $('#boton').on('click', function() {
     $.ajax({
       type: "GET",
       url: "https://www.superheroapi.com/api.php/4905856019427443/${id}",
       dataType: "json",
       success: function(datosApi) {
-        console.log(datosApi.data);
+        console.log(datosApi);
 
         
         cardSection.innerHTML = "";
