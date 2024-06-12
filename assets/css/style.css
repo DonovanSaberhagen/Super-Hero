@@ -11844,5 +11844,17 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.buscador {
+  width: 50vw;
+}
+
+.btn {
+  width: 10rem;
+  height: 3rem;
+}
+
+#boton {
+  width: 50vw;
+}
 
 /*# sourceMappingURL=style.css.map */
