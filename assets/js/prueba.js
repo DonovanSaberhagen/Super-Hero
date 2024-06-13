@@ -116,12 +116,12 @@ $(document).ready(function () {
               indexLabel: "{y}",
               axisYType: "secondary",
               dataPoints: [
-                { label: "inteligencia", y: Number(character.powerstats.intelligence) },
-                { label: "Uptown Funk", y: 4.96 },
-                { label: "Wheels on the Bus", y: 5.36 },
-                { label: "Phonics Song with Two Words", y: 5.36 },
-                { label: "See You Again", y: 5.94 },
-                { label: "Shape of You", y: 6.02 },
+                { label: "Inteligencia", y: Number(character.powerstats.intelligence) },
+                { label: "Durabilidad", y: Number(character.powerstats.durability) },
+                { label: "Velocidad", y: Number(character.powerstats.speed) },
+                { label: "Fortaleza", y: Number(character.powerstats.strength) },
+                { label: "Combate", y: Number(character.powerstats.combat) },
+                { label: "Poder", y: Number(character.powerstats.power) },
                
               ]
             }]
@@ -136,5 +136,3 @@ $(document).ready(function () {
     });
   });
 });
-
-
