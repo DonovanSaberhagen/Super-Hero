@@ -1,4 +1,4 @@
-![Imagen](../Super%20Hero/assets/img/sh2.jpg)
+![Imagen](./assets/img/sh2.jpg)
 
 - [Super Hero](#super-hero)
   - [Requerimientos](#requerimientos)
