@@ -57,17 +57,21 @@ errores en la búsqueda.
 
 
 3. Agregamos las imagenes, el nav, la HeroSection el imput y Capturamos la informacion mediante el Dom en el archivo js donde ira la Card de nuestro proyecto.
+   
    ![Imagen](./assets/img/06%20154439.png)
    
 
 4. Hacemos el llamado a la api mediante ajax
+
    ![Imagen](./assets/img/06%20155631.png)
 
-5. Agregamos parametros al imput para que la informacion ingresada por el usuario sea solo un
-número.
+5. Agregamos parametros al imput para que la informacion ingresada por el usuario sea solo un número.
+   
+   
 ![Imagen](./assets/img/06%20154913.png)
  
 6. Renderizamos la información recibida por la API utilizando una card de Bootstrap.
+
    ![Imagen](./assets/img/06%20160616.png)
 
 7. Utilizamos métodos para los arreglos y objetos para recorrer la información.
@@ -76,9 +80,12 @@ número.
 8. Empleamos la librería de gráficos CanvasJS, para mostrar dinámicamente
 información específica de cada superhéroe. (En este caso remmplazaremos el grafico de pastel por uno
 de barra para un mejor diseño ya que en el grafico de pastel se pierden elementos importantes a la hora de representar la informacion de los stats de los personajes)
- ![Imagen](./assets/img/06%20153922.png)
 
-1. Implementar una condicion para generar una alerta cuando existan errores en la búsqueda.
+ ![Imagen](./assets/img/06%20153922.png)
+ 
+
+9. Implementar una condicion para generar una alerta cuando existan errores en la búsqueda.
+    
    ![Imagen](./assets/img/06%20162506.png)
  
 ---
